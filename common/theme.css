@@ -1,14 +1,54 @@
 :root {
-  --color-primary: #27aae1;
-  --color-primary-light: #27aae1;
-  --color-secondary: #33ffc9;
-  --color-accent: #33ffc9;
-  --color-neutral-beige: #e2e2e2;
+  --color-primary: #60c;
+  --color-primary-light: #60c;
+  --color-secondary: #27aae1;
+  --color-accent: #43c3ef;
+  --color-neutral-beige: #212121;
 
   --font-primary: "Roboto Slab", sans-serif;
-  --font-secondary: sans-serif;
+  --font-secondary: "Tinos", serif;
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+h1, h2 {
+  color: #60c;
+  font-weight: bold;
+  font-family: var(--font-primary);
+}
+
+h3, h4, h5, h6 {
+  color: #27aae1;
+  font-weight: bold;
+  font-family: var(--font-primary);
+}
+
+p {
+  color: #212121;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-family: var(--font-secondary);
+
+}
+
+ul, dl, ol {
+  color: #e2e2e2;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  font-weight: bold;
+  color: var(--color-accent);
+}
+
+blockquote, cite, q {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
 }
