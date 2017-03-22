@@ -4,6 +4,9 @@
   <meta charset="utf-8">
   <title>Brand</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    html { color: rgb(var(--color-patternbot-interface), var(--color-patternbot-interface), var(--color-patternbot-interface)); }
+  </style>
   <link href="modulifier.min.css" rel="stylesheet">
   <link href="gridifier.min.css" rel="stylesheet">
   <link href="typografier.min.css" rel="stylesheet">
@@ -11,13 +14,18 @@
   <link href="common.min.css" rel="stylesheet">
   <link href="brand.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
 </head>
 <body>
 
-  <div class="patternbot-font-primary">
+  <div class="patternbot-font-primary text-left">
 
     <section>
-      <h2 class="patternbot-color-body giga ">Primary colours</h2>
+      <h2 class="patternbot-color-body giga push-1-4">Primary colours</h2>
+        <div class="patternbot-max-length italic max-length">
+          <p>The primary color is a bold colour that really stands out at catches the eye&#39;s attention, encouraging people to adopt. Use this color for headers and buttons and anywhere to add a hint of color.</p>
+
+        </div>
 
       <div class="patternbot-color-swatches patternbot-color-swatches-primary grid grid-stretch">
         <div class="unit xs-1-2" style="background-color:var(--color-primary)">&nbsp;</div>
@@ -27,13 +35,13 @@
         </div>
       </div>
 
-      <ul class="patterbot-color-swatch-labels patternbot-color-body list-group-inline milli pad-t-1-2 push-0">
+      <ul class="patterbot-color-swatch-labels patternbot-color-body patternbot-list-group list-group-inline milli pad-t-1-2 push-0">
           <li class="push-r-1-2">
             <div class="push-1-2">
               <i class="icon i-24" style="background-color:var(--color-primary);">&nbsp;</i>
               <span class="icon-label">Primary</span>
             </div>
-            <ul class="patternbot-code-details patternbot-code-details-under list-group micro push-0">
+            <ul class="patternbot-code-details patternbot-code-details-under patternbot-list-group list-group micro push-0">
               <li class="push-1-8"><code>var(--color-primary)</code></li>
               <li class="push-1-8"><code>#60c</code></li>
               <li><code>rgba(102, 0, 204, 1)</code></li>
@@ -44,7 +52,7 @@
               <i class="icon i-24" style="background-color:var(--color-primary-light);">&nbsp;</i>
               <span class="icon-label">Primary light</span>
             </div>
-            <ul class="patternbot-code-details patternbot-code-details-under list-group micro push-0">
+            <ul class="patternbot-code-details patternbot-code-details-under patternbot-list-group list-group micro push-0">
               <li class="push-1-8"><code>var(--color-primary-light)</code></li>
               <li class="push-1-8"><code>#63c</code></li>
               <li><code>rgba(102, 51, 204, 1)</code></li>
@@ -56,7 +64,11 @@
     <section class="pad-t">
       <hr class="patternbot-hr">
 
-      <h2 class="patternbot-color-body giga ">Secondary colours</h2>
+      <h2 class="patternbot-color-body giga push-1-4">Secondary colours</h2>
+        <div class="patternbot-max-length italic max-length">
+          <p>This is a lighter color that is used to make the website feel warmer and more welcoming. This colour is used to create contrast so that the website doesn&#39;t just focus on one main colour. This gives the website a cool variation.</p>
+
+        </div>
 
       <div class="patternbot-color-swatches patternbot-color-swatches-secondary grid grid-stretch">
         <div class="unit xs-1-2" style="background-color:var(--color-secondary)">&nbsp;</div>
@@ -65,13 +77,13 @@
         </div>
       </div>
 
-      <ul class="patterbot-color-swatch-labels patternbot-color-body list-group-inline milli pad-t-1-2 push-0">
+      <ul class="patterbot-color-swatch-labels patternbot-color-body patternbot-list-group list-group-inline milli pad-t-1-2 push-0">
           <li class="push-r-1-2">
             <div class="push-1-2">
               <i class="icon i-24" style="background-color:var(--color-secondary);">&nbsp;</i>
               <span class="icon-label">Secondary</span>
             </div>
-            <ul class="patternbot-code-details patternbot-code-details-under list-group micro push-0">
+            <ul class="patternbot-code-details patternbot-code-details-under patternbot-list-group list-group micro push-0">
               <li class="push-1-8"><code>var(--color-secondary)</code></li>
               <li class="push-1-8"><code>#27aae1</code></li>
               <li><code>rgba(39, 170, 225, 1)</code></li>
@@ -84,14 +96,14 @@
       <hr class="patternbot-hr">
 
       <h2 class="patternbot-color-body giga ">Accent colours</h2>
-      <ul class="patterbot-color-swatch-labels patternbot-color-body list-group-inline milli push-0">
+      <ul class="patterbot-color-swatch-labels patternbot-color-body patternbot-list-group list-group-inline milli push-0">
           <li class="push-r-1-2 push">
             <div class="patternbot-color-swatches patternbot-color-swatches-accent push-1-2" style="background-color:var(--color-accent);">&nbsp;</div>
             <div class="push-1-2">
               <i class="icon i-24" style="background-color:var(--color-accent);">&nbsp;</i>
               <span class="icon-label">Accent</span>
             </div>
-            <ul class="patternbot-code-details patternbot-code-details-under list-group micro push-0">
+            <ul class="patternbot-code-details patternbot-code-details-under patternbot-list-group list-group micro push-0">
               <li class="push-1-8"><code>var(--color-accent)</code></li>
               <li class="push-1-8"><code>#43c3ef</code></li>
               <li><code>rgba(67, 195, 239, 1)</code></li>
@@ -103,18 +115,34 @@
     <section class="pad-t">
       <hr class="patternbot-hr">
 
-      <h2 class="patternbot-color-body giga ">Neutral colours</h2>
-      <ul class="patterbot-color-swatch-labels patternbot-color-body list-group-inline milli push-0">
+      <h2 class="patternbot-color-body giga push-1-4">Neutral colours</h2>
+        <div class="patternbot-max-length italic max-length">
+          <p>This color is a dark grey, almost a black, that can be used for long body copy.</p>
+
+        </div>
+      <ul class="patterbot-color-swatch-labels patternbot-color-body patternbot-list-group list-group-inline milli push-0">
           <li class="push-r-1-2 push">
             <div class="patternbot-color-swatches patternbot-color-swatches-accent push-1-2" style="background-color:var(--color-neutral-beige);">&nbsp;</div>
             <div class="push-1-2">
               <i class="icon i-24" style="background-color:var(--color-neutral-beige);">&nbsp;</i>
               <span class="icon-label">Neutral beige</span>
             </div>
-            <ul class="patternbot-code-details patternbot-code-details-under list-group micro push-0">
+            <ul class="patternbot-code-details patternbot-code-details-under patternbot-list-group list-group micro push-0">
               <li class="push-1-8"><code>var(--color-neutral-beige)</code></li>
               <li class="push-1-8"><code>#212121</code></li>
               <li><code>rgba(33, 33, 33, 1)</code></li>
+            </ul>
+          </li>
+          <li class="push-r-1-2 push">
+            <div class="patternbot-color-swatches patternbot-color-swatches-accent push-1-2" style="background-color:var(--color-neutral-light-grey);">&nbsp;</div>
+            <div class="push-1-2">
+              <i class="icon i-24" style="background-color:var(--color-neutral-light-grey);">&nbsp;</i>
+              <span class="icon-label">Neutral light grey</span>
+            </div>
+            <ul class="patternbot-code-details patternbot-code-details-under patternbot-list-group list-group micro push-0">
+              <li class="push-1-8"><code>var(--color-neutral-light-grey)</code></li>
+              <li class="push-1-8"><code>#f1f1f1</code></li>
+              <li><code>rgba(241, 241, 241, 1)</code></li>
             </ul>
           </li>
       </ul>

@@ -11,6 +11,8 @@ fonts:
     The secondary font is a font that is a serif that looks good and is readable at smaller sizes. It also works very well along side the bold sans-serif
 
     This secondary font is used to create contrast and make things stand out. For example it can be used for links, key words and captions on photos.
+
+colors:
   primary: |
     The primary color is a bold colour that really stands out at catches the eye's attention, encouraging people to adopt. Use this color for headers and buttons and anywhere to add a hint of color.
   secondary: |
@@ -18,5 +20,5 @@ fonts:
   secondary accent: |
     The accent color is a lighter version of the secondary colour that can be used for type for buttons in the hover state.
   neutral: |
-  This color is a dark grey, almost a black, that can be used for long body copy.
+    This color is a dark grey, almost a black, that can be used for long body copy.
 ---

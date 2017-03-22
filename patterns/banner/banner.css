@@ -1,0 +1,23 @@
+.banner {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  width: 100%;
+  display: block;
+}
+
+.content {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 30%;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}
