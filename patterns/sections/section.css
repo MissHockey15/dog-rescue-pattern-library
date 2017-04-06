@@ -1,11 +1,63 @@
-.section-text {
-  text-align: center;
+.dog-info-card {
+  position: relative;
+  transition: all 500ms linear;
+  overflow: hidden;
 }
 
-@media only screen and (min-width: 38em) {
+.dog-info-card h2 {
+  background-color: rgba(67, 195, 239, 1);
+  transition: all 500ms linear;
+}
 
-  .section-text {
-    text-align: left;
-  }
+.dog-info-card p {
+  color: #f1f1f1;
 
+}
+
+.dog-info-card svg {
+  color: #f1f1f1;
+}
+
+.dog-info-card .content {
+  position: absolute;
+  bottom: 5px;
+  display: block;
+  background-color: rgba(67, 195, 239, .5);
+  transition: all 500ms linear;
+  overflow: hidden;
+}
+
+.dog-info-card:hover .content {
+  background-color: var(--color-accent);
+}
+
+.dog-info-card:hover h2 {
+  background-color: var(--color-accent);
+}
+
+.image-card h2 {
+  color: #f1f1f1;
+}
+
+.image-card {
+  position: relative;
+  transition: all 500ms linear;
+  overflow: hidden;
+}
+
+.image-card svg {
+  color: #f1f1f1;
+}
+
+.image-card .content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 188, 212, .75);
+  transition: all 500ms linear;
+  overflow: hidden;
+}
+
+.image-card:hover .content {
+  background-color: var(--color-accent);
 }
