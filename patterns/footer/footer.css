@@ -3,10 +3,13 @@ a {
   text-align: right;
 }
 
-small {
+.copyright {
   color: #fff;
+  text-align: right;
 }
 
 .footer {
   background-color: var(--color-primary);
+  padding-left: 2em;
+  padding-right:
 }

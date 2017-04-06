@@ -1,3 +1,7 @@
+body {
+  background-color: var(--color-neutral-light-grey)
+}
+
 nav {
   text-align: center;
 }
