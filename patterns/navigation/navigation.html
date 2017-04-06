@@ -2,36 +2,54 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Navigation</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Filters</title>
   <link href="../../common/modules.css" rel="stylesheet">
   <link href="../../common/grid.css" rel="stylesheet">
   <link href="../../common/type.css" rel="stylesheet">
   <link href="../../common/theme.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
   <link href="navigation.css" rel="stylesheet">
 </head>
 
-<header class="grid-middle pad-t-2 gutter-2">
-
-  <div class="unit xs-1 logo text-center">
-    <i class="icon i-96 push-1-2">
-      <img src="../../images/logo-256.svg" alt="">
-    </i>
-    <h1 class="push-2 gutter-1-4 exa">Loyal Rescue</h1>
-  </div>
-
-</header>
-
 <body>
-  <nav>
-    <ul class="list-group-inline">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Dogs</a></li>
-      <li><a href="#">Application</a></li>
-      <li><a href="#">FAQ</a></li>
-      <li><a href="#">Contact Us</a></li>
-    </ul>
-  </nav>
+  <section class="filters">
+    <form class="grid" action="index.html" method="post">
+      <div class="push-1-2 unit xs-1-2 l-1-4 gutter-1-2">
+        <label for="gender" class="micro">GENDER</label>
+        <select class="micro" id="gender">
+          <option value=""></option>
+          <option>Male</option>
+          <option>Female</option>
+        </select>
+      </div>
+      <div class="push-1-2 unit xs-1-2 l-1-4 gutter-1-2">
+        <label for="age" class="micro">AGE</label>
+        <select class="micro" id="age">
+          <option value=""></option>
+          <option>Puppy</option>
+          <option>Young</option>
+          <option>Adult</option>
+          <option>Old</option>
+        </select>
+      </div>
+      <div class="push-1-2 unit xs-1-2 l-1-4 gutter-1-2">
+        <label for="breed" class="micro">BREED</label>
+        <select class="micro" id="breed">
+          <option value=""></option>
+          <option>Retriever</option>
+          <option>Lab</option>
+          <option>German Shepherd</option>
+          <option>Italian Greyhound</option>
+          <option>Mutt</option>
+          <option>Unknown</option>
+        </select>
+      </div>
+      <div class="pad-t-1-2 unit xs-1-2 l-1-4 gutter-1-4 text-center">
+        <button class="btn push-r-1-4 micro" type="submit">Apply</button>
+        <button class="btn push-r-1-4 micro" type="submit">Reset</button>
+      </div>
+    </form>
+  </section>
 </body>
 </html>

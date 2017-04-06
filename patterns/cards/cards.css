@@ -6,7 +6,11 @@
 }
 
 .dog-img {
-  max-width: 100px;
+  max-width: 200px;
   border: 50px;
   border-radius: 8px;
+}
+
+.btn {
+  margin-top: 1em;
 }
