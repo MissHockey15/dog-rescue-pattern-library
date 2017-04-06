@@ -18,16 +18,15 @@
     <h1 class="yotta push-1-2">Application</h1>
     <p class="push-1-2">This information is used to consider you for our pet adoption.</p>
 
-  <form novalidate>
+    <form novalidate>
 
-
-    <div class="unit xs-1 s-1 m-4-5 l-4-5 push-1-2 gutter-1-4">
-      <label class="milli" for="why-adopt">Why do you want to adopt a dog?</label>
-      <textarea id="why-adopt" required aria-describedby="why-adopt-error"></textarea>
-      <p class="error-message milli island-1-4 push-0" id="why-adopt-error">
-        <span class="warning-label">Tell us why you want to adopt</span>
-      </p>
-    </div>
+      <div class="unit xs-1 s-1 m-4-5 l-4-5 push-1-2 gutter-1-4">
+        <label class="milli" for="why-adopt">Why do you want to adopt a dog?</label>
+        <textarea id="why-adopt" required aria-describedby="why-adopt-error"></textarea>
+        <p class="error-message milli island-1-4 push-0" id="why-adopt-error">
+          <span class="warning-label">Tell us why you want to adopt</span>
+        </p>
+      </div>
 
       <h3 class="unit xs-1 s-1 m-1-5 l-1-5 giga">Dog Info</h3>
 
@@ -55,7 +54,6 @@
         </p>
       </div>
 
-
       <h3 class="unit xs-1 s-1 m-1-5 l-1-5 giga">About You</h3>
 
       <div class="unit xs-1 s-1 m-3-5 l-3-5 push-1-2 gutter-1-4">
@@ -74,18 +72,15 @@
         </p>
       </div>
 
-      <div class="unit xs-1 s-1 m-1-5 l-1-5">
-      </div>
-
       <fieldset class="unit xs-1 s-1 m-2-5 l-2-5 push-1-2 gutter-1-4">
         <label class="milli push-1-2 not-bold">Are you employed?</label>
-        <input type="radio" name="employed" id="yes-employed" required aria-describedby="no-employed">
+        <input type="radio" name="employed" id="yes-employed" required aria-describedby="employed-error">
         <label for="yes-employed">Yes</label>
-        <input type="radio" name="employed" id="no-employed" required aria-describedby="no-employed">
+        <input type="radio" name="employed" id="no-employed" required aria-describedby="employed-error">
         <label for="no-employed" class="gutter-1-2">No</label>
-        <p class="error-message micro island-1-4 push-0" id="agreement-error">
-         <span class="warning-label">Please indicate if you are employed</span>
-       </p>
+        <p class="error-message micro island-1-4 push-0" id="employed-error">
+          <span class="warning-label">Please indicate if you are employed</span>
+        </p>
       </fieldset>
 
       <div class="unit xs-1 s-1 m-2-5 l-2-5 push-1-2 gutter-1-4">
@@ -119,7 +114,6 @@
         </p>
       </div>
 
-
       <h3 class="unit xs-1 s-1 m-1-5 l-1-5 giga">Address</h3>
 
       <fieldset class="unit xs-1 s-1 m-1-5 l-1-5 gutter-1-4">
@@ -142,7 +136,7 @@
       <fieldset class="unit xs-1 s-1 m-1-5 l-1-5 gutter-1-4">
         <label class="milli" for="province">Province</label>
         <select id="province" required aria-describedby="province-error">
-          <option value=""> </option>
+          <option value="">&nbsp;</option>
           <option value="AB">Alberta</option>
           <option value="BC">British Columbia</option>
           <option value="MB">Manitoba</option>
