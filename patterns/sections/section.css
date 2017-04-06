@@ -20,11 +20,12 @@
 
 .dog-info-card .content {
   position: absolute;
-  bottom: 5px;
+  bottom: 0;
   display: block;
   background-color: rgba(67, 195, 239, .5);
   transition: all 500ms linear;
   overflow: hidden;
+  width: 100%;
 }
 
 .dog-info-card:hover .content {
