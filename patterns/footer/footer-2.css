@@ -1,0 +1,30 @@
+.footer {
+  background-color: var(--color-primary);
+  color: #f2f2f2;
+}
+
+.footer > svg {
+  fill: #f2f2f2;
+}
+
+hr {
+  border-color: #f2f2f2
+}
+
+.footer a svg {
+  color: var(--color-primary);
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.iconss {
+  text-align: right;
+}
+
+.footernav {
+  color: white;
+  text-align: right;
+  padding-right: 2em;
+}

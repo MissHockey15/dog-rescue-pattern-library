@@ -5,7 +5,7 @@
 }
 
 .dog-info-card h2 {
-  background-color: rgba(67, 195, 239, 1);
+  background-color: rgba(67, 195, 239, .9);
   transition: all 500ms linear;
 }
 
@@ -22,7 +22,7 @@
   position: absolute;
   bottom: 0;
   display: block;
-  background-color: rgba(67, 195, 239, .5);
+  background-color: rgba(67, 195, 239, .7);
   transition: all 500ms linear;
   overflow: hidden;
   width: 100%;
@@ -61,4 +61,8 @@
 
 .image-card:hover .content {
   background-color: var(--color-accent);
+}
+
+h3 {
+  text-align: center;
 }
