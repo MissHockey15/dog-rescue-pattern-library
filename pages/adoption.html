@@ -10,9 +10,11 @@
   <link href="../common/theme.css" rel="stylesheet">
   <link href="../patterns/header/header.css" rel="stylesheet">
   <link href="../patterns/banner/banner.css" rel="stylesheet">
-  <link href="../patterns/sections/section.css" rel="stylesheet">
+  <link href="../patterns/cards/cards.css" rel="stylesheet">
   <link href="../patterns/footer/footer-2.css" rel="stylesheet">
+  <link href="../patterns/buttons/buttons.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Tinos" rel="stylesheet">
 </head>
 <body>
   <header class="head grid-middle gutter-2">
@@ -27,8 +29,8 @@
 
   <nav>
     <ul class="headnav list-group-inline">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Dogs</a></li>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="adoption.html">Dogs</a></li>
       <li><a href="#">Application</a></li>
       <li><a href="#">FAQ</a></li>
       <li><a href="#">Contact Us</a></li>
@@ -41,3 +43,221 @@
       <h1 class="push-1-4 yotta">Say Hello to Our Furry Friends</h1>
     </div>
   </section>
+
+  <section class="filters pad-t-2 pad-b-2">
+    <form class="grid" action="index.html" method="post">
+      <div class="push-1-2 unit xs-1-2 l-1-4 gutter-1-2">
+        <label for="gender" class="micro">GENDER</label>
+        <select class="micro" id="gender">
+          <option value="">&nbsp;</option>
+          <option>Male</option>
+          <option>Female</option>
+        </select>
+      </div>
+      <div class="push-1-2 unit xs-1-2 l-1-4 gutter-1-2">
+        <label for="age" class="micro">AGE</label>
+        <select class="micro" id="age">
+          <option value="">&nbsp;</option>
+          <option>Puppy</option>
+          <option>Young</option>
+          <option>Adult</option>
+          <option>Old</option>
+        </select>
+      </div>
+      <div class="push-1-2 unit xs-1-2 l-1-4 gutter-1-2">
+        <label for="breed" class="micro">BREED</label>
+        <select class="micro" id="breed">
+          <option value="">&nbsp;</option>
+          <option>Retriever</option>
+          <option>Lab</option>
+          <option>German Shepherd</option>
+          <option>Italian Greyhound</option>
+          <option>Mutt</option>
+          <option>Unknown</option>
+        </select>
+      </div>
+      <div class="pad-b-1-2 unit xs-1-2 l-1-4 gutter-1-4 text-center">
+        <button class="btn push-r-1-4 micro" type="submit">Apply</button>
+        <button class="btn push-r-1-4 micro" type="submit">Reset</button>
+      </div>
+    </form>
+  </section>
+
+  <section>
+    <div class="grid">
+      <div class="unit xs-1 s-1 m-1-2 l-1-4 text-center gutter-1-2 pad-b-2">
+        <div class="card island">
+          <img class="img-flex" src="../images/puppy-1.jpg" alt="">
+          <h2 class="push-1-4">DRAKE</h2>
+          <p class="push-0">Age: 5 months</p>
+          <p class="push-0">Sex: Male</p>
+          <p class="push-0">Breed: Lab</p>
+          <a class="btn" href="#">Learn More</a>
+        </div>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-4 text-center gutter-1-2 pad-b-2">
+        <div class="card island">
+          <img class="img-flex" src="../images/puppy-2.jpg" alt="">
+          <h2 class="push-1-4">DRAKE</h2>
+          <p class="push-0">Age: 5 months</p>
+          <p class="push-0">Sex: Male</p>
+          <p class="push-0">Breed: Lab</p>
+          <a class="btn" href="#">Learn More</a>
+        </div>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-4 text-center gutter-1-2 pad-b-2">
+        <div class="card island">
+          <img class="img-flex" src="../images/puppy-3.jpg" alt="">
+          <h2 class="push-1-4">DRAKE</h2>
+          <p class="push-0">Age: 5 months</p>
+          <p class="push-0">Sex: Male</p>
+          <p class="push-0">Breed: Lab</p>
+          <a class="btn" href="#">Learn More</a>
+        </div>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-4 text-center gutter-1-2 pad-b-2">
+        <div class="card island">
+          <img class="img-flex" src="../images/puppy-4.jpg" alt="">
+          <h2 class="push-1-4">DRAKE</h2>
+          <p class="push-0">Age: 5 months</p>
+          <p class="push-0">Sex: Male</p>
+          <p class="push-0">Breed: Lab</p>
+          <a class="btn" href="#">Learn More</a>
+        </div>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-4 text-center gutter-1-2 pad-b-2">
+        <div class="card island">
+          <img class="img-flex" src="../images/puppy-5.jpg" alt="">
+          <h2 class="push-1-4">DRAKE</h2>
+          <p class="push-0">Age: 5 months</p>
+          <p class="push-0">Sex: Male</p>
+          <p class="push-0">Breed: Lab</p>
+          <a class="btn" href="#">Learn More</a>
+        </div>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-4 text-center gutter-1-2 pad-b-2">
+        <div class="card island">
+          <img class="img-flex" src="../images/puppy-6.jpg" alt="">
+          <h2 class="push-1-4">DRAKE</h2>
+          <p class="push-0">Age: 5 months</p>
+          <p class="push-0">Sex: Male</p>
+          <p class="push-0">Breed: Lab</p>
+          <a class="btn" href="#">Learn More</a>
+        </div>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-4 text-center gutter-1-2 pad-b-2">
+        <div class="card island">
+          <img class="img-flex" src="../images/puppy-7.jpg" alt="">
+          <h2 class="push-1-4">DRAKE</h2>
+          <p class="push-0">Age: 5 months</p>
+          <p class="push-0">Sex: Male</p>
+          <p class="push-0">Breed: Lab</p>
+          <a class="btn" href="#">Learn More</a>
+        </div>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-4 text-center gutter-1-2 pad-b-2">
+        <div class="card island">
+          <img class="img-flex" src="../images/puppy-8.jpg" alt="">
+          <h2 class="push-1-4">DRAKE</h2>
+          <p class="push-0">Age: 5 months</p>
+          <p class="push-0">Sex: Male</p>
+          <p class="push-0">Breed: Lab</p>
+          <a class="btn" href="#">Learn More</a>
+        </div>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-4 text-center gutter-1-2 pad-b-2">
+        <div class="card island">
+          <img class="img-flex" src="../images/puppy-9.jpg" alt="">
+          <h2 class="push-1-4">DRAKE</h2>
+          <p class="push-0">Age: 5 months</p>
+          <p class="push-0">Sex: Male</p>
+          <p class="push-0">Breed: Lab</p>
+          <a class="btn" href="#">Learn More</a>
+        </div>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-4 text-center gutter-1-2 pad-b-2">
+        <div class="card island">
+          <img class="img-flex" src="../images/puppy-10.jpg" alt="">
+          <h2 class="push-1-4">DRAKE</h2>
+          <p class="push-0">Age: 5 months</p>
+          <p class="push-0">Sex: Male</p>
+          <p class="push-0">Breed: Lab</p>
+          <a class="btn" href="#">Learn More</a>
+        </div>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-4 text-center gutter-1-2 pad-b-2">
+        <div class="card island">
+          <img class="img-flex" src="../images/puppy-11.jpg" alt="">
+          <h2 class="push-1-4">DRAKE</h2>
+          <p class="push-0">Age: 5 months</p>
+          <p class="push-0">Sex: Male</p>
+          <p class="push-0">Breed: Lab</p>
+          <a class="btn" href="#">Learn More</a>
+        </div>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-4 text-center gutter-1-2 pad-b-2">
+        <div class="card island">
+          <img class="img-flex" src="../images/puppy-12.jpg" alt="">
+          <h2 class="push-1-4">DRAKE</h2>
+          <p class="push-0">Age: 5 months</p>
+          <p class="push-0">Sex: Male</p>
+          <p class="push-0">Breed: Lab</p>
+          <a class="btn" href="#">Learn More</a>
+        </div>
+      </div>
+  </section>
+
+  <section class="footer">
+    <div class="grid pad-t-2">
+      <div class="unit xs-1-2 gutter">
+        <h6 class="icon-label milli inline-block pad-t">Loyal Rescue</h6>
+        <small class="micro block">Loyal Rescue Inc. ©️ 2005-2017</small>
+      </div>
+
+        <nav class="footernav unit s-1-2">
+          <ol class="nav list-group-inline push-0 milli">
+            <li><a class="block pad-r-1-2" href="home.html">Home</a></li>
+            <li><a class="block gutter-1-2" href="adoption.html">Dogs</a></li>
+            <li><a class="block gutter-1-2" href="#">Application</a></li>
+            <li><a class="block gutter-1-2" href="#">FAQ</a></li>
+            <li><a class="block pad-l-1-2" href="#">Contact Us</a></li>
+          </ol>
+        </nav>
+
+      </div>
+      <div class="iconss text-right">
+        <a href="#" class="">
+          <i class="icon i-48 push push-r">
+            <svg><use xlink:href="../../images/social.svg#social-instagram" /><svg>
+          </i>
+          <a href="#" class="">
+            <i class="icon i-48 push push-r">
+              <svg><use xlink:href="../../images/social.svg#social-twitter" /><svg>
+            </i>
+          </a>
+          <a href="#" class="">
+            <i class="icon i-48 push push-r">
+              <svg><use xlink:href="../../images/social.svg#social-facebook" /><svg>
+            </i>
+          </a>
+        </a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+
+
+</body>
+</html>
