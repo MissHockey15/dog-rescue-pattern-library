@@ -1,9 +1,14 @@
+
 .btnaround {
   padding-right: 2rem;
 }
 
 h3 {
   padding-top: 3rem;
+}
+
+hr {
+  border-color: #ccc;
 }
 
 fieldset {
@@ -34,4 +39,14 @@ fieldset {
 .is-validated textarea:invalid + .error-message,
 .is-validated input:invalid + label + .error-message {
   display: block;
+}
+
+input[type="checkbox"] + label {
+  padding-top: .2em;
+  padding-left: 2.4em;
+  position: relative;
+}
+input[type="checkbox"] + label::before {
+  position: absolute;
+  left: 0;
 }

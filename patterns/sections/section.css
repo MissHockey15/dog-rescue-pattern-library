@@ -1,3 +1,7 @@
+.text {
+  color: black;
+}
+
 .dog-info-card {
   position: relative;
   transition: all 500ms linear;
