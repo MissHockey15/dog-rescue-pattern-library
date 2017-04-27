@@ -2,8 +2,7 @@
 outputFile: "index.html"
 
 name: "Loyal Rescue"
-fontUrl: "https://fonts.googleapis.com/css?family=Roboto+Slab:400,700"
-fontUrl: "https://fonts.googleapis.com/css?family=Tinos"
+fontUrl: "https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Tinos"
 
 fonts:
   primary:
